@@ -1,0 +1,124 @@
+#wrap{
+	margin: 0px auto;
+	width: 850px;
+}
+#header{
+	width: 850px;
+	line-height:80px;
+}
+
+#sidebar{
+	background-color: #6600FF;
+	float:left;
+	width: 180px;
+	line-height: 20px;
+}
+#sidebar ul{
+	margin: 0px;
+	list-style-type:none;
+	padding: 0px;
+}
+
+#sidebar ul li a{
+	display: block;
+	text-decoration: none;
+	padding: 5px 10px;
+	border-bottom: 1px solid #CCC;
+	font-size: 14px;
+	font-weight: bold;
+	color: white;
+	text-align: left;
+}
+
+#sidebar ul li a:hover{
+	background-color:#CCC;
+}
+
+#content{
+	float: left;
+	width: 650px;
+	margin-left: 20px;
+}
+#footer{
+	position: relative;
+	left: 180px;
+	width: 650px;
+	text-align: center;
+}
+
+h1{
+	margin: 0px;
+	padding-left: 25px;
+	color:#CC33CC;
+	font-size: 22px;
+	background-color: #BBD9EE;
+}
+h2{
+	font-size: 16px;
+}
+.No_RepBG{
+	background-image: url('http://www.1keydata.com/css-tutorial/tw/yp.jpg');
+	background-repeat: no-repeat;
+  	background-position:20% 20%; 
+}
+.FixedBG{
+  background-attachment: fixed; 
+  background-image: url('http://www.1keydata.com/css-tutorial/tw/yp.jpg'); 
+  background-repeat: no-repeat; 
+}
+.No_FixedBG{
+	background-attachment: scroll; 
+  	background-image: url('http://www.1keydata.com/css-tutorial/tw/yp.jpg'); 
+  	background-repeat: no-repeat;
+}
+.CenterBG{
+ 	background-image: url('http://www.1keydata.com/css-tutorial/tw/yp.jpg');
+  	background-repeat: no-repeat;
+  	background-position: center center;
+}
+.font_grass{
+	color:#00FF00;
+}
+strong{
+	font-size:20px;
+	font-weight:bold;
+}
+.YRepBG{
+	background-image:url('http://www.1keydata.com/css-tutorial/tw/yp.jpg');
+	background-repeat: repeat-y;
+}
+.XRepBG{
+	background-image:url('http://www.1keydata.com/css-tutorial/tw/yp.jpg');
+	background-repeat: repeat-x;
+}
+.RepBG{
+	background-image:url('http://www.1keydata.com/css-tutorial/tw/yp.jpg');
+	background-repeat: repeat;
+}
+.NORepBG{
+	background-image:url('http://www.1keydata.com/css-tutorial/tw/yp.jpg');
+	background-repeat: no-repeat;
+}
+.yellowBG{
+	background-color: #FFE66F;
+}
+.greenBG{
+	background-color: #00FF00;
+}
+.redBG{
+	background-color: #FF0000;
+}
+.font_blue{
+	color: #0000CC;
+}
+.font_green{
+	color:#008800;
+}
+.example{
+	background-color: #DDDDDD;
+	width: 650px;
+	border: 0px;
+}
+.font_purple{
+	color:#770077;
+}
